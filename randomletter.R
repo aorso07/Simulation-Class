@@ -1,6 +1,1 @@
-randomLetter <- function(n) {
-  alphabet <- letters
-  randomIndex <- sample(length(alphabet), 1)
-  randomLetter <- alphabet[randomIndex]
-  return(randomLetter)
-}
+#' @return A randomly chosen letter of the alphabet#' @exportrandomLetter <- function() {  alphabet <- letters  randomIndex <- sample(length(alphabet), 1)  randomLetter <- alphabet[randomIndex]  return(randomLetter)}
